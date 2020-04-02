@@ -8,5 +8,3 @@
     collection
  end
  
-
-my_collect(array) {|i| array[i].split(" ").first}
