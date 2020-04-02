@@ -9,4 +9,4 @@
  end
  
 
-my_collect(array) {|i| array[i].split(" ").first}
+my_collect(array) {|i| i.split(" ").first}
