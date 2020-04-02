@@ -2,11 +2,11 @@
    i = 0 
    collection = []
     while i < array.length
-      collection << yield(array[i].split(" ").first)
+      collection << yield(array[i])
       i = i + 1
     end
     collection
  end
  
 
-my_collect(array) {|i| 
+my_collect(array) {|i| array[i].split(" ").first}
