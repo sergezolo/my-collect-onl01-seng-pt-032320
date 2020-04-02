@@ -9,4 +9,4 @@
  end
  
 
-my_collect(array) {|i|
+my_collect(array) {|i| 
