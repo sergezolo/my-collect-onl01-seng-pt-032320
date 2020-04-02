@@ -9,3 +9,4 @@
  end
  
 
+my_collect(array) {|i|
